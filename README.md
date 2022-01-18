@@ -1,19 +1,88 @@
-# markdown-cheat-sheet
-
-## Basic Syntax
-
-### Heading
-
+# MARCKDOWN CHEAT SHEET
+## BASIC SYNTAX
+### HEADING
+\# H1
 # H1
+\# H2
 ## H2
+\# H3
 ### H3
+\# H4
 #### H4
+\# H5
 ##### H5
+\# H6
 ###### H6
-
 ### BOLD
-\*\*bold text\*\*
+\*\*bold text\*\*<br>
 **bold text**
+### ITALIC
+\*italic text\*<br>
+*italic*
+### BLOCKQUOTE
+\> blockquote
+> blockquote
+### ORDERED LIST
+\1. First item<br>
+\2. Second item<br>
+\3. Third item<br>
+1. First item
+2. Second item
+3. Third item
+### UNORDERED LIST
+\- First item<br>
+\- Second item<br>
+\- Third item<br>
+- First item
+- Second item
+- Third item
+### CODE
+\`code\`
+`code`
+### HORIZONTAL RULE
+\---<br>
+---
+### LINK
+\[title\]\(https://www.example.com\)<br>
+[title](https://www.example.com)
+### Image
+\!\[alt text\]\(image.jpg\)<br>
+![alt text](image.jpg)
+## EXTENDED SYNTAX
+### TABLE
+\| Column 1 | Column 2 |<br>
+\| -------- | -------- |<br>
+\| info 1 | info 2 |<br>
+\| info 3 | info 4 |<br>
+\| info 5 | info 6 |<br>
+| Column 1 | Column 2 |
+| -------- | -------- |
+| info 1 | info 2 |
+| info 3 | info 4 |
+| info 5 | info 6 |
+
+### CODE BLOCK
+\`\`\`json<br>
+{<br>
+  "firstName": "John",<br>
+  "lastName": "Smith",<br>
+  "age": 25<br>
+}<br>
+\`\`\`
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+### TASKLIST
+\- [ ] item1<br>
+\- [ ] item2<br>
+\- [ ] item3<br>
+- [ ] item1
+- [ ] item2
+- [ ] item3
 
 ## SYNTAX HIGLIGHT SUPPORTED LANGUAGES
 - Cucumber ('*.feature')
